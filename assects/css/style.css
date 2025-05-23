@@ -46,7 +46,6 @@
 .btn:active {
   transform: scale(0.97);
 }
-
 #hero_img {
   max-width: 700px;
   width: 100%;
@@ -58,6 +57,7 @@
   margin: 0 auto;
   padding-inline: 16px;
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 .category_card_main {
   display: flex;
@@ -65,7 +65,6 @@
   gap: 30px;
   margin-top: 40px;
 }
-
 .swiper_card {
   text-align: center;
   display: flex;
@@ -76,7 +75,109 @@
   width: 100%;
   height: auto;
 }
+.swiper-button-prev,
+.swiper-button-next {
+  top: auto; /* Default top ko hata do */
+  bottom: 10px; /* Bottom mein le aao */
+  transform: none; /* Center se hatao */
+  z-index: 10;
+}
 
+/* Agar center align karna ho horizontally */
+.swiper-button-prev {
+  left: 40%;
+}
+.swiper-button-next {
+  right: 40%;
+}
+/* Featured_main */
+#Featured_main {
+  max-width: 1360px;
+  width: 100%;
+  margin: 0 auto;
+  padding-inline: 16px;
+  margin-top: 40px;
+}
+.Featured_main2 {
+  display: flex;
+  gap: 20px;
+}
+.line {
+  width: 200px;
+  background-color: black;
+  height: 3px;
+  margin-bottom: 40px;
+}
+.line1 {
+  width: 100px;
+  background-color: black;
+  height: 3px;
+  margin-bottom: 40px;
+}
+#Featured_h2 {
+  margin-bottom: 5px;
+}
+#sale {
+  max-width: 554px;
+  width: 100%;
+  background-color: #c8a938;
+  padding-block: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+.red_feautred {
+  max-width: 770px;
+  width: 100%;
+  border-radius: 10px;
+  background: rgba(253, 81, 81, 0.67);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+}
+.red_feautred2 {
+  max-width: 770px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #ff9564;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.box0{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#dis {
+  width: 200px;
+  height: 80px;
+  border: 2px solid #000;
+  padding: 10px;
+  text-align: center;
+}
+.red_button {
+  width: 155px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  background: #000;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.1s;
+}
+.red_button:active {
+  transform: scale(0.97);
+}
 @media (max-width: 500px) {
   :root {
     --font-size-sm: 20px;
