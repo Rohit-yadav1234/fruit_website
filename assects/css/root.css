@@ -1,0 +1,60 @@
+:root {
+  /* Font Sizes */
+  --font-size-xs: 16px;
+  --font-size-sm: 20px;
+  --font-size-md: 24px;
+  --font-size-lg: 28px;
+  --font-size-xl: 32px;
+  --font-size-2xl: 36px;
+  --font-size-3xl: 48px;
+
+  /* Font Weights */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-light-grey: #f5f5f5;
+  --color-dark-green: #0b6434;
+  --color-dark-grey: #2b2b2b;
+
+  /* Line Heights */
+  --line-height-tight: 120%;
+  --line-height-normal: 150%;
+}
+/* Font Sizes */
+.text-xs   { font-size: var(--font-size-xs); }
+.text-sm   { font-size: var(--font-size-sm); }
+.text-md   { font-size: var(--font-size-md); }
+.text-lg   { font-size: var(--font-size-lg); }
+.text-xl   { font-size: var(--font-size-xl); }
+.text-2xl  { font-size: var(--font-size-2xl); }
+.text-3xl  { font-size: var(--font-size-3xl); }
+
+/* Font Weights */
+.font-regular   { font-weight: var(--font-weight-regular); }
+.font-medium    { font-weight: var(--font-weight-medium); }
+.font-semibold  { font-weight: var(--font-weight-semibold); }
+.font-bold      { font-weight: var(--font-weight-bold); }
+
+/* Text Colors */
+.text-white      { color: var(--color-white); }
+.text-black      { color: var(--color-black); }
+.text-lightgrey  { color: var(--color-light-grey); }
+.text-darkgreen  { color: var(--color-dark-green); }
+.text-darkgrey   { color: var(--color-dark-grey); }
+
+/* Line Heights */
+.leading-tight   { line-height: var(--line-height-tight); }
+.leading-normal  { line-height: var(--line-height-normal); }
+
+
+@media (max-width: 500px) {
+  :root {
+    --font-size-md: 24px;
+  }
+ 
+}
