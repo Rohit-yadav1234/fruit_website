@@ -51,7 +51,13 @@
 .leading-tight   { line-height: var(--line-height-tight); }
 .leading-normal  { line-height: var(--line-height-normal); }
 
-
+/* padding */
+.p-10{
+  padding: 10px;
+}
+.bg-green{
+  background-color: #0b6434;
+}
 @media (max-width: 500px) {
   :root {
     --font-size-md: 24px;
