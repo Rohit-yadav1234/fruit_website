@@ -232,25 +232,61 @@
   width: 150px;
   height: 150px;
 }
+.drinks_main {
+  max-width: 1360px;
+  width: 100%;
+  margin: 0 auto;
+  padding-inline: 16px;
+}
 .footer_main {
   max-width: 1360px;
   width: 100%;
   margin: 0 auto;
   padding-inline: 16px;
 }
-.footer_main_bg{
+.footer_main_bg {
   margin-top: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #0b6434;
 }
-#footer_logo{
-  background:#fff;
+#footer_logo {
+  background: #fff;
 }
-.footer_p{
+.footer_p {
   width: 320px;
   margin-top: 10px;
 }
+
+.swiper {
+  max-width: 1360px;
+  width: 100%;
+  margin: 0 auto;
+  padding-inline: 16px;
+  height: 250px;
+  margin-top: 20px;
+}
+
+.swiper-slide {
+  text-align: center;
+  background: green;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.swiper-slide img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.swiper-slide p {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
 @media (max-width: 500px) {
   :root {
     --font-size-sm: 20px;
