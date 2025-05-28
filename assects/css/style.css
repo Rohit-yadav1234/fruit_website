@@ -197,9 +197,13 @@
   border-radius: 10px;
   transition: 0.1s;
 }
+
 .group:hover .product_card {
   background-color: black;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.Vegetables_main h2{
+margin-bottom: 40px;
 }
 .btn_product {
   border: none;
@@ -212,7 +216,7 @@
   color: #fff;
 }
 .group:hover .product_card  .btn_product{
-  color: #fff;
+  color: #fff; 
 }
 .btn_product:hover {
   color: white;
