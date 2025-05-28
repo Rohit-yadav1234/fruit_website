@@ -202,9 +202,7 @@
   background-color: black;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
-.Vegetables_main h2{
-margin-bottom: 40px;
-}
+
 .btn_product {
   border: none;
   border-radius: 10px;
@@ -229,6 +227,10 @@ margin-bottom: 40px;
   display: grid;
   grid-template-columns: auto auto auto auto;
   gap: 15px;
+}
+#fruit_img{
+  width: 150px;
+  height:150px;
 }
 @media (max-width: 500px) {
   :root {
