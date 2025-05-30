@@ -71,7 +71,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.swiper-slide img {
+.mySwiper .swiper-slide img {
   width: 100%;
   height: auto;
 }
@@ -259,24 +259,21 @@
 }
 
 .swiper {
-  max-width: 1360px;
+  max-width: 1280px;
   width: 100%;
   margin: 0 auto;
   padding-inline: 16px;
-  height: 250px;
   margin-top: 20px;
 }
 
-.swiper-slide {
+.mySwiper1 .swiper-slide {
   text-align: center;
-  background: green;
   border-radius: 10px;
-  padding: 10px;
+  background-color: #0b6434;
 }
 
-.swiper-slide img {
+.mySwiper1 .swiper-slide img {
   width: 100px;
-  height: 100px;
   object-fit: cover;
   border-radius: 8px;
 }
